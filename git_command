@@ -1,5 +1,11 @@
+# Git Global Config
 git config --global user.name "Rotanak Chhean"
 git config --global user.email rotanakchhean@gmail.com
 git config --global -e
 git config --global core.editor "code --wait"
 git config --global core.autocrlf true ("true" in window, "input" in linux/mac)
+
+# Handle project
+git init
+git add . ("." all files in the directory, or "filename.extension)
+
