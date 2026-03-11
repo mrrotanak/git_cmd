@@ -9,3 +9,16 @@ git config --global core.autocrlf true ("true" in window, "input" in linux/mac)
 git init
 git add . ("." all files in the directory, or "filename.extension)
 
+
+#or create a new repository on the command line
+echo "# robotinvest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mrrotanak/robotinvest.git
+git push -u origin main
+
+#remove file or folder from git track
+git rm --cached file_name
+git rm -r --cached folder_name
